@@ -17,6 +17,9 @@
             changeStatus(){
                 this.status = 'Normal';
             }
+        },    
+        created() {
+            console.log('carregou o ServerStatus');
         }
     }
 </script>
