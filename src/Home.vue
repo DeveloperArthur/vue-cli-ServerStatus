@@ -9,6 +9,9 @@
     export default{
         components: {
             'app-server-status': ServerStatus
+        },
+        created() {
+            console.log('carregou o Home');
         }
     }
 </script>
