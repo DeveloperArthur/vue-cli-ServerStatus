@@ -3,7 +3,11 @@
 </template>
 
 <script>
-
+  export default{
+    created() {
+      console.log('carregou o App');
+    }
+  }
 </script>
 
 <style>
